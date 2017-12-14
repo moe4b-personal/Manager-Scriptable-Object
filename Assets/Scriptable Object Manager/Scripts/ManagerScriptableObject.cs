@@ -27,6 +27,8 @@ public class ManagerScriptableObject : ScriptableObject
     {
         get
         {
+            //check if null or if the application is not playing
+            //because we might've adedd an override so the current version could be invalid
             if (_current == null || !Application.isPlaying)
                 _current = GetCurrent();
 
