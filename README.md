@@ -1,4 +1,4 @@
-# Scriptable-Object-Manager
+# Manager Scriptable Object
 this project showcases how to use a 
 [ScriptableObject](https://docs.unity3d.com/ScriptReference/ScriptableObject.html)
 to obtain a manager like behaviour using the 
